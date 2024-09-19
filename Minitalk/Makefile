@@ -38,6 +38,14 @@ GREEN		= \033[32m
 RESET		= \033[0m
 
 all: $(NAME_SERVER) $(NAME_CLIENT)
+	@echo "\n"
+	@echo "		$(PURPLE)███$(CYAN)╗   $(PURPLE)███$(CYAN)╗$(PURPLE)██$(CYAN)╗$(PURPLE)███$(CYAN)╗   $(PURPLE)██$(CYAN)╗$(PURPLE)██$(CYAN)╗$(PURPLE)████████$(CYAN)╗ $(PURPLE)█████$(CYAN)╗ $(PURPLE)██$(CYAN)╗     $(PURPLE)██$(CYAN)╗  $(PURPLE)██$(CYAN)╗$(RESET)"
+	@echo "		$(PURPLE)████$(CYAN)╗ $(PURPLE)████$(CYAN)║$(PURPLE)██$(CYAN)║$(PURPLE)████$(CYAN)╗  $(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║╚══$(PURPLE)██$(CYAN)╔══╝$(PURPLE)██$(CYAN)╔══$(PURPLE)██$(CYAN)╗$(PURPLE)██$(CYAN)║     $(PURPLE)██$(CYAN)║ $(PURPLE)██$(CYAN)╔╝$(RESET)"
+	@echo "		$(PURPLE)██$(CYAN)╔$(PURPLE)████$(CYAN)╔$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)╔$(PURPLE)██$(CYAN)╗ $(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║   $(PURPLE)██$(CYAN)║   $(PURPLE)███████$(CYAN)║$(PURPLE)██$(CYAN)║     $(PURPLE)█████$(CYAN)╔╝ $(RESET)"
+	@echo "		$(PURPLE)██$(CYAN)║╚$(PURPLE)██$(CYAN)╔╝$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║╚$(PURPLE)██$(CYAN)╗$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║   $(PURPLE)██$(CYAN)║   $(PURPLE)██$(CYAN)╔══$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║     $(PURPLE)██$(CYAN)╔═$(PURPLE)██$(CYAN)╗ $(RESET)"
+	@echo "		$(PURPLE)██$(CYAN)║ ╚═╝ $(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║$(PURPLE)██$(CYAN)║ ╚$(PURPLE)████$(CYAN)║$(PURPLE)██$(CYAN)║   $(PURPLE)██$(CYAN)║   $(PURPLE)██$(CYAN)║  $(PURPLE)██$(CYAN)║$(PURPLE)███████$(CYAN)╗$(PURPLE)██$(CYAN)║  $(PURPLE)██$(CYAN)╗$(RESET)"
+	@echo "		$(CYAN)╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝$(RESET)"
+	@echo "\n"
 
 $(NAME_SERVER): $(SERVER_OBJ)
 	@echo "$(YELLOW)LIBFT        |$(RESET)"
